@@ -1,0 +1,9 @@
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Core\bin\Debug\netcoreapp2.2\Walle.Core.deps.json
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Core\bin\Debug\netcoreapp2.2\Walle.Core.dll
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Core\bin\Debug\netcoreapp2.2\Walle.Core.pdb
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Core\obj\Debug\netcoreapp2.2\Walle.Core.csprojAssemblyReference.cache
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Core\obj\Debug\netcoreapp2.2\Walle.Core.csproj.CoreCompileInputs.cache
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Core\obj\Debug\netcoreapp2.2\Walle.Core.AssemblyInfoInputs.cache
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Core\obj\Debug\netcoreapp2.2\Walle.Core.AssemblyInfo.cs
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Core\obj\Debug\netcoreapp2.2\Walle.Core.dll
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Core\obj\Debug\netcoreapp2.2\Walle.Core.pdb
