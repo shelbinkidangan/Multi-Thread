@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +6,5 @@ import { FormControl, Validators } from '@angular/forms';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Walle-SPA';
-  hide = true;
+  title = 'Wallex-SPA';
 }
