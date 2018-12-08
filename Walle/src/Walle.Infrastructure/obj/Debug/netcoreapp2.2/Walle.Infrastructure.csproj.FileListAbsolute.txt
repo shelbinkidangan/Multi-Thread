@@ -14,3 +14,5 @@ C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Infrastructure\obj\Deb
 C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Infrastructure\bin\Debug\netcoreapp2.2\Walle.Infrastructure.pdb
 C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Infrastructure\obj\Debug\netcoreapp2.2\Walle.Infrastructure.dll
 C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Infrastructure\obj\Debug\netcoreapp2.2\Walle.Infrastructure.pdb
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Infrastructure\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Shelbin\source\repos\Muti-Thread\Walle\src\Walle.Infrastructure\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.SqlServer.xml

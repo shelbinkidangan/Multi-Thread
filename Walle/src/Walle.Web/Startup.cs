@@ -49,7 +49,7 @@ namespace Walle.Web
             // Add App DbContext.
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("AppConnection"),
-                    b => b.MigrationsAssembly("CupCake.Infrastructure")));
+                    b => b.MigrationsAssembly("Walle.Infrastructure")));
             services.AddSingleton<IJwtFactory, JwtFactory>();
 
             // Get options from app settings
