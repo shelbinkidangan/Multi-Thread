@@ -4,8 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Finance.Web.Controllers
+namespace Finance.Web.Areas.Public.Controllers
 {
+    [Area("Public")]
     public class HomeController : Controller
     {
         public IActionResult Index()
