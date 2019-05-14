@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using System.Text;
@@ -20,7 +21,7 @@ namespace Walls.Controllers
             MailMessage mail = new MailMessage();
             var addresses = kJContact.Emails;
 
-            mail.From = new MailAddress("sales@kjwallpapers.com", "KJ Wallpaper");
+            mail.From = new MailAddress("sales@kjwallpapers.com", "Shijo - KJ Wallpaper");
             mail.Priority = MailPriority.High;
             foreach (var address in addresses.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries))
             {
@@ -45,7 +46,7 @@ namespace Walls.Controllers
         [HttpGet("SendMail")]
         public async Task<IActionResult> FileUpload()
         {
-            using (var reader = new StreamReader(@"C:\Users\Shelbin\source\repos\Muti-Thread\Walls\Walls\KJContacts.csv"))
+            using (var reader = new StreamReader(@"C:\Users\Shelbin\Documents\DevHub\Repos\Multi-Thread\Walls\Walls\KJContacts.csv"))
             using (var csv = new CsvReader(reader))
             {
                 var record = new KJContact();
@@ -61,15 +62,15 @@ namespace Walls.Controllers
 
         private string getContent(string companyName, bool isPurchase)
         {
-            var htmlContent = @"<p><em><span style='font-size: 12pt;'>Respected Sir or Ma&rsquo;am,</span></em></p>
-            <p>A pleasant day to you. I am writing on behalf of KJ Wallpaper, one of the sought-after interior products dealer based in Bangalore. We would like to formally introduce our company and services to you.</p>
+            var htmlContent = @"<p><em><span style='font-size: 12pt;'>Respected Sir,</span></em></p>
+            <p>A pleasant day to you. I am writing on behalf of <b>KJ Wallpaper</b>, one of the sought-after interior products dealer based in Bangalore. We would like to formally introduce our company and services to you.</p>
             <p>We have been in this business for 20 years and we can proudly say that we have grown our client base because of our relentless drive to meet our clients&rsquo; needs. We provide best quality products at reasonable prices. We are associated with several major interior products manufacturers and agencies across the country and many overseas. We have a high performing team and successfully executed several corporate projects in time.</p>
             <p><em>We supply and install the below items.</em></p>
             <ul style='margin-top: 0in;'>
-            <li style='margin-left: 0in;'><em>Wallpapers</em></li>
-            <li style='margin-left: 0in;'><em>Wooden Flooring</em></li>
-            <li style='margin-left: 0in;'><em>Vinyl Flooring</em></li>
-            <li style='margin-left: 0in;'><em>Carpets</em></li>
+              <li style='margin-left: 0in;'><em><b>Wallpapers</b></em></li>
+            <li style='margin-left: 0in;'><em><b>Wooden Flooring</b></em></li>
+            <li style='margin-left: 0in;'><em><b>Vinyl Flooring</b></em></li>
+            <li style='margin-left: 0in;'><em><b>Carpets</b></em></li>
             </ul>
             <p>It would be a pleasure to be associated with ";
 
